@@ -2,8 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 html, body {
-  margin: 0;
-  padding: 0;
+  
 }
 
 
@@ -24,44 +23,39 @@ html, body {
 /* Main */
 .main {
   width: 100%;
-  height: 500px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdF2Y1W68tSi3P-v62Z8pM6zJJzhCO0jr4rW_aECtczpJqCrGB");
-  background-repeat: none;
-  background-size: 1300px 500px;
+  height: 700px;
+  background-image: url("https://scontent-lga.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1912075_10201528837171313_1008756976_n.jpg?oh=30d5ffe9b0caacf51c53f860401c07c5&oe=55772E53");
+  background-size: cover;
 }
 
 .main h1 {
   color: #333333;    
   text-align: right;
-  padding-top: 50px;
+  padding-top: 30px;
+  margin-right: -20px;
 }
 .main h1 span {
   color: #9C0A60;    
   text-align: right;
 }
 
-.main a {
+.main .btn p {
   text-align: center;
   color:#fff;
   border: 3px solid #36343F;
   background: #36343F;
   padding: 5px 20px;
-}
-
-.main .btn {
-  padding-top: 100px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 1000px;
 }
 
 /* Footer */
+.footer .container {
+  padding: 20px;
+}
 .footer li { 
     display: inline;
-}
-
-.footer img {
-    width: 25px;
-    padding-top: 40px;
+    padding: 20px;
+    width: 10%;
 }
 
 .footer p {
