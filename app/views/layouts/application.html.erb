@@ -4,13 +4,43 @@
   <title>Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300italic,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
 </head>
 <body>
+<div class="header">
+    <div class="container">
+    
+        <h1>Elise Fitzgerald</h1>
+    
+        <div class="navigation">
+            <ul>
+                <li>Welcome</li>
+                <li><%= link_to "Portfolio", portfolio_path(@portfolio) %></li>
+                <li>Blog</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
 
 <%= yield %>
+
+<div class="footer">
+    <div class="container">
+        <ul>
+            <li><%= image_tag "github7.png" %></li>
+            <li><%= image_tag "linkedin1.png" %></li>
+            <li><%= image_tag "twitter12.png" %></li>
+        </ul>
+        <p>&#169 2015 Elise Fitzgerald</p>
+    </div>
+</div>
+
 
 </body>
 </html>

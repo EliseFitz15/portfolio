@@ -1,3 +1,29 @@
+var main = function() {
+    
+    $(function() {
+    $('.banner').unslider();
+});
+
+$('.nav li').click(function() {
+    var category = $(this).attr('class');
+
+    $('.nav li').removeClass('active');
+    $(this).addClass('active');
+
+    if(category === 'nav-angular') {
+    $('.thumbnail').removeClass('selected');
+    $('.angular').addClass('selected');
+    } else if(category === 'nav-rails') {
+        $('.thumbnail').removeClass('selected');
+        $('.rails').addClass('selected'); 
+        } else if(category ==='nav-jquery') {
+            $('.thumbnail').removeClass('selected');
+            $('.jquery').addClass('selected');
+}                
+
+  $(document).ready(main);
+
+
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //

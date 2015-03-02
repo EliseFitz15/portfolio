@@ -18,7 +18,9 @@ html, body {
     float: left;
     color: #9C0A60;
 }
-
+.navigation a {
+  color: #9C0A60;
+}
 
 /* Main */
 .main {
@@ -39,7 +41,7 @@ html, body {
   text-align: right;
 }
 
-.main .btn p {
+.main .btn a {
   text-align: center;
   color:#fff;
   border: 3px solid #36343F;
@@ -48,18 +50,73 @@ html, body {
   margin-left: 1000px;
 }
 
+/* Slider */
+.banner { 
+  position: relative; 
+  overflow: auto; 
+}
+.banner li { 
+  list-style: none; 
+  width: 75%;
+}
+
+.banner ul li { 
+  float: left; 
+}
+
+.banner img {
+  width: 50%;
+   }
+
+
+/* Supporting Projects Grid*/
+
+.navs {
+  background-color: #333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navs ul {
+  text-align: center;
+}
+
+.navs li {
+  border-radius: 10%;
+  background-color: #333;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline;
+  padding-left: 30px;
+}
+
+.angular img, .rails img, .jquery img {
+  height: 250px;
+  width: 400px;
+  padding: 10px;
+  
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
 /* Footer */
 .footer .container {
   padding: 20px;
 }
 .footer li { 
     display: inline;
-    padding: 20px;
-    width: 10%;
+    padding: 10px;
+    float: right;
+}
+.footer li img {
+  width: 25px;
 }
 
 .footer p {
-    float: right;
+    float: left;
     size: 20px;
     color: #36343F;
 }
+
