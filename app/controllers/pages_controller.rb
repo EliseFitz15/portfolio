@@ -6,6 +6,9 @@ end
 def portfolio
 end
 
+def blog
+end
+
 def about
 end
 

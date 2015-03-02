@@ -17,10 +17,10 @@
     
         <div class="navigation">
             <ul>
-                <li>Welcome</li>
+                <li><%= link_to "Welcome", @welcome %></li>
                 <li><%= link_to "Portfolio", portfolio_path(@portfolio) %></li>
-                <li>Blog</li>
-                <li>About</li>
+                <li><%= link_to "Blog", blog_path(@blog) %></li>
+                <li><%= link_to "About", about_path(@about) %></li>
                 <li>Contact</li>
             </ul>
         </div>
