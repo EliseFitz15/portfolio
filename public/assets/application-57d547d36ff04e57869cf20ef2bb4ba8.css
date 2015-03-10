@@ -1,0 +1,167 @@
+/* Header */
+/* line 10, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.header h1 {
+  float: right;
+  color: #9C0A60;
+}
+
+/* line 15, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.header .navigation li {
+  display: inline;
+  padding: 20px;
+  float: left;
+  color: #9C0A60;
+}
+
+/* line 21, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.navigation a {
+  color: #9C0A60;
+}
+
+/* Main */
+/* line 26, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.main {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://scontent-lga.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1912075_10201528837171313_1008756976_n.jpg?oh=30d5ffe9b0caacf51c53f860401c07c5&oe=55772E53");
+  background-size: cover;
+}
+
+/* line 33, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.main h1 {
+  color: #333333;
+  text-align: right;
+  padding-top: 30px;
+  margin-right: -20px;
+}
+
+/* line 39, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.main h1 span {
+  color: #9C0A60;
+  text-align: right;
+}
+
+/* line 44, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.main .btn a {
+  text-align: center;
+  color: #fff;
+  border: 3px solid #36343F;
+  background: #36343F;
+  padding: 5px 20px;
+  margin-left: 1000px;
+}
+
+/* Slider */
+/* line 54, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.banner {
+  position: relative;
+  overflow: auto;
+}
+
+/* line 58, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.banner li {
+  list-style: none;
+  width: 75%;
+}
+
+/* line 63, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.banner ul li {
+  float: left;
+}
+
+/* line 67, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.banner img {
+  width: 50%;
+}
+
+/* Supporting Projects Grid*/
+/* line 74, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.navs {
+  background-color: #333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 79, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.navs ul {
+  text-align: center;
+}
+
+/* line 83, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.navs li {
+  border-radius: 10%;
+  background-color: #333;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline;
+  padding-left: 30px;
+}
+
+/* line 92, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.angular img, .rails img, .jquery img {
+  height: 250px;
+  width: 400px;
+  padding: 10px;
+}
+
+/* line 99, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+/* About Page */
+/* line 104, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.photo img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 109, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.bio {
+  text-align: center;
+  color: #9C0A60;
+  padding: 40px;
+}
+
+/* Footer */
+/* line 116, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.footer .container {
+  padding: 20px;
+}
+
+/* line 119, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.footer li {
+  display: inline;
+  padding: 10px;
+  float: right;
+}
+
+/* line 124, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.footer li img {
+  width: 25px;
+}
+
+/* line 128, /home/ubuntu/workspace/app/assets/stylesheets/pages.css.scss */
+.footer p {
+  float: left;
+  size: 20px;
+  color: #36343F;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
