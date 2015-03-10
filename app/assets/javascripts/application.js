@@ -10,13 +10,13 @@ $('.nav li').click(function() {
     $('.nav li').removeClass('active');
     $(this).addClass('active');
 
-    if(category === 'nav-angular') {
+    if(category === 'angular') {
     $('.thumbnail').removeClass('selected');
     $('.angular').addClass('selected');
-    } else if(category === 'nav-rails') {
+    } else if(category === 'rails') {
         $('.thumbnail').removeClass('selected');
         $('.rails').addClass('selected'); 
-        } else if(category ==='nav-jquery') {
+        } else if(category ==='jquery') {
             $('.thumbnail').removeClass('selected');
             $('.jquery').addClass('selected');
 }                
