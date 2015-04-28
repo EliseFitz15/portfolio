@@ -1,25 +1,22 @@
 var main = function() {
-    
-    $(function() {
-    $('.banner').unslider();
-});
-
 $('.nav li').click(function() {
     var category = $(this).attr('class');
 
     $('.nav li').removeClass('active');
     $(this).addClass('active');
 
-    if(category === 'angular') {
+    if(category === 'nav-angular') {
     $('.thumbnail').removeClass('selected');
     $('.angular').addClass('selected');
-    } else if(category === 'rails') {
+  } else if(category === 'nav-rails') {
         $('.thumbnail').removeClass('selected');
-        $('.rails').addClass('selected'); 
-        } else if(category ==='jquery') {
+        $('.rails').addClass('selected');
+      } else if(category ==='nav-jquery') {
             $('.thumbnail').removeClass('selected');
             $('.jquery').addClass('selected');
-}                
+          }
+      });
+    };
 
   $(document).ready(main);
 

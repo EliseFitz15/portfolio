@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 html, body {
-  
+
 }
 
 
@@ -31,13 +31,13 @@ html, body {
 }
 
 .main h1 {
-  color: #333333;    
+  color: #333333;
   text-align: right;
   padding-top: 30px;
   margin-right: -20px;
 }
 .main h1 span {
-  color: #9C0A60;    
+  color: #9C0A60;
   text-align: right;
 }
 
@@ -50,26 +50,20 @@ html, body {
   margin-left: 1000px;
 }
 
-/* Slider */
-.banner { 
-  position: relative; 
-  overflow: auto; 
-}
-.banner li { 
-  list-style: none; 
-  width: 75%;
-}
-
-.banner ul li { 
-  float: left; 
-}
-
-.banner img {
-  width: 50%;
-   }
-
-
 /* Supporting Projects Grid*/
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+  background-color: #f01251;
+}
+
+.thumbnail {
+  padding: 0;
+  box-shadow:0px 2px 2px #000;
+  border-radius:0px;
+  border:0px;
+}
 
 .navs {
   background-color: #333;
@@ -93,19 +87,22 @@ html, body {
   height: 250px;
   width: 400px;
   padding: 10px;
-  
+  display: block;
+
 }
 
 .title {
   text-align: center;
   padding: 10px;
 }
+
+
 /* About Page */
 .photo img {
   margin-left: auto;
   margin-right: auto;
   }
-  
+
 .bio {
   text-align: center;
   color: #9C0A60;
@@ -116,7 +113,7 @@ html, body {
 .footer .container {
   padding: 20px;
 }
-.footer li { 
+.footer li {
     display: inline;
     padding: 10px;
     float: right;
@@ -130,4 +127,3 @@ html, body {
     size: 20px;
     color: #36343F;
 }
-
