@@ -64,23 +64,19 @@ html, body {
   border-radius:0px;
   border:0px;
 }
-
-.navs {
-  background-color: #333;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 .navs ul {
-  text-align: center;
+  float:none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
 }
 
 .navs li {
-  border-radius: 10%;
-  background-color: #333;
+  border-radius: 5%;
+  background-color: #fff;
   margin-right: auto;
   margin-left: auto;
   display: inline;
-  padding-left: 30px;
 }
 
 .angular img, .rails img, .jquery img {
@@ -98,19 +94,21 @@ html, body {
 
 
 /* About Page */
-.photo img {
-  margin-left: auto;
-  margin-right: auto;
-  }
+.about {
+  margin: auto;
+  display: block;
+  padding: 100px;
+}
 
-.bio {
-  text-align: center;
+.about .bio {
+  float: right;
+  text-align: left;
   color: #9C0A60;
-  padding: 40px;
+  padding-right: 40px;
 }
 
 /* Footer */
-.footer .container {
+.footer {
   padding: 20px;
 }
 .footer li {
