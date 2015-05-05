@@ -2,23 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 html, body {
-
+ background-color: #46433A;
+}
+h1, p, li, a {
+  color: #64B6B1;
 }
 
 /* Header */
 .header h1 {
-    float: right;
-    color: #9C0A60;
+  float: right;
+  color: #64B6B1;
 }
 
 .header .navigation li {
-    display: inline;
-    padding: 20px;
-    float: left;
-    color: #9C0A60;
-}
-.navigation a {
-  color: #9C0A60;
+  display: inline;
+  padding: 20px;
+  float: left;
+  color: #64B6B1;
+  font-size: 18px;
+  font-weight: 110;
 }
 
 /* Main */
@@ -36,7 +38,7 @@ html, body {
   margin-right: -20px;
 }
 .main h1 span {
-  color: #9C0A60;
+  color: #64B6B1;
   text-align: right;
 }
 
@@ -54,7 +56,7 @@ html, body {
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus {
-  background-color: #f01251;
+  background-color: #CE534D;
 }
 
 .thumbnail {
@@ -92,27 +94,42 @@ html, body {
 
 
 /* About Page */
-.about {
-  margin: auto;
-  display: block;
-  padding: 100px;
+.about .container {
+  width: auto;
 }
 
-.about .bio {
-  float: right;
+.headshot img {
+ height: 550px;
+ width: auto;
+}
+
+.bio {
+height: 550px;
+font-size:18px;
+font-weight: 100;
+display: block;
+color: #fff;
+}
+
+.about .bio h1 {
+  font-size: 64px;
   text-align: left;
-  color: #9C0A60;
-  padding-right: 40px;
+  font-weight: 100;
+  margin-bottom: 20px;
 }
-
+.about .bio p {
+  text-align: left;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
 /* Footer */
 .footer {
   padding: 20px;
 }
 .footer li {
-    display: inline;
-    padding: 10px;
-    float: right;
+  display: inline;
+  padding: 10px;
+  float: right;
 }
 .footer li img {
   width: 25px;
@@ -121,5 +138,5 @@ html, body {
 .footer p {
     float: left;
     size: 20px;
-    color: #36343F;
+    color: #DED4B9;
 }
