@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300italic,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
+</head>
+<body>
+<div class="header">
+    <div class="container">
+
+        <h1>Elise Fitzgerald</h1>
+
+        <div class="navigation">
+            <ul>
+                <li><%= link_to "Welcome", root_path(@welcome) %></li>
+                <li><%= link_to "Portfolio", portfolio_path(@portfolio) %></li>
+                <li><%= link_to "Blog", "https://medium.com/@elisefitzgerald" %></li>
+                <li><%= link_to "About", about_path(@about) %></li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<%= yield %>
+
+<div class="footer">
+    <div class="container">
+        <ul>
+            <li><%=link_to image_tag("github7.png"), url_for("https://github.com/EliseFitz15") %></li>
+            <li><%=link_to image_tag("linkedin1.png"), url_for("https://www.linkedin.com/in/elisefitzgerald15") %></li>
+            <li><%=link_to image_tag("twitter12.png"), url_for("https://twitter.com/ENFitzgerald15") %></li>
+        </ul>
+        <p>&#169 2015 Elise Fitzgerald</p>
+    </div>
+</div>
+
+</body>
+</html>
